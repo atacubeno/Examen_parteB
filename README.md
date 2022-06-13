@@ -67,8 +67,9 @@
 
 * Comprobamos con el comando `docker images` la creacion de nuestra imagen y hacemos un `tag usuario/nombreimagen` y a continuación un ´docker login´ y un ´docker push´.
 
-* Por último comprobamos que se ha subido nuestro repositorio a **Docker Hub*** y con esto finalizamos esta parte.
+* Por último comprobamos que se ha subido nuestra imagen a **Docker Hub*** y con esto finalizamos esta parte.
 
 
  ![3](https://user-images.githubusercontent.com/91874745/173313250-f933599a-f45a-47c2-b263-5e105954ff17.png)
 
+ENLACE A IMAGEN/REPOSITORIO DOCKER EN DOCKER HUB: https://hub.docker.com/repository/docker/adalt/debianadalid
