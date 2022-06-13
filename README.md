@@ -52,7 +52,7 @@
 
 ## Apartado 2 examen (DOCKERFILE Proyecto debian con Python, con PLAY WITH DOCKER)
 
- * En mi caso he creado una imagen a partir de un Dockerfile, primero creo un directorio donde tendré mis imagenes de Docker, una vez dentro creo el **Dockerfile** con **vi**, dentro escribo las instrucciones para una base debian y python, con las siguientes instrucciones como se ven en la imagen:
+ * En mi caso he creado una imagen a partir de un **Dockerfile**, primero creo un directorio donde tendré mis imagenes de Docker, una vez dentro creo el **Dockerfile** con `vi Dockerfile`, dentro escribo las instrucciones para una base debian y python, con las siguientes instrucciones como se ven en la imagen:
  
  ![1](https://user-images.githubusercontent.com/91874745/173312271-12f00b54-ccf4-4f1b-a8ed-8167631ed895.png)
 
