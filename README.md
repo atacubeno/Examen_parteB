@@ -47,5 +47,28 @@
  *Pero para ver todos los contenedores, esten en estado UP  o EXITED, necesitaremos ejecutar `docker ps -a`
  
  ![6](https://user-images.githubusercontent.com/91874745/173306908-df180a1b-b545-4fef-9cc4-291d267de88a.png)
-
  
+ Con esto finalizamos el primer apartado.
+
+## Apartado 2 examen (DOCKERFILE Proyecto debian con Python, con PLAY WITH DOCKER)
+
+ * En mi caso he creado una imagen a partir de un Dockerfile, primero creo un directorio donde tendré mis imagenes de Docker, una vez dentro creo el **Dockerfile** con **vi**, dentro escribo las instrucciones para una base debian y python, con las siguientes instrucciones como se ven en la imagen:
+ 
+ ![1](https://user-images.githubusercontent.com/91874745/173312271-12f00b54-ccf4-4f1b-a8ed-8167631ed895.png)
+
+  * Creación **Dockerfile**
+  
+![dockerfile](https://user-images.githubusercontent.com/91874745/173312441-746443e8-cc0b-4374-a195-2f34893cb729.png)
+
+
+* Después de esto ejecutamos el comando `docker build --tag debianadalid .`, el punto es porque el **Dockerfile** está dentro del mismo directorio
+
+![1](https://user-images.githubusercontent.com/91874745/173312547-8f2e2246-3bbb-4113-aed5-a3cb0de6ff36.png)
+
+* Comprobamos con el comando ´docker images´ la creacion de nuestra imagen y hacemos un `tag usuario/nombreimagen` y a continuación un ´docker login´ y un ´docker push´.
+
+* Por último comprobamos que se ha subudo nuestro repositorio a **Docker Hub***.
+
+
+ ![3](https://user-images.githubusercontent.com/91874745/173313250-f933599a-f45a-47c2-b263-5e105954ff17.png)
+
