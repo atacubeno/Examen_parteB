@@ -65,7 +65,7 @@
 
 ![1](https://user-images.githubusercontent.com/91874745/173312547-8f2e2246-3bbb-4113-aed5-a3cb0de6ff36.png)
 
-* Comprobamos con el comando ´docker images´ la creacion de nuestra imagen y hacemos un `tag usuario/nombreimagen` y a continuación un ´docker login´ y un ´docker push´.
+* Comprobamos con el comando `docker images` la creacion de nuestra imagen y hacemos un `tag usuario/nombreimagen` y a continuación un ´docker login´ y un ´docker push´.
 
 * Por último comprobamos que se ha subudo nuestro repositorio a **Docker Hub***.
 
